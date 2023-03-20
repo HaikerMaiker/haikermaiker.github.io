@@ -13,13 +13,13 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="/css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
                 <span class="site-heading-upper text-primary mb-3">Iker Guerrero González</span>
-                <span class="site-heading-lower">Programador | Desarrollador</span>
+                <span class="site-heading-lower">Programmer | Game Developer</span>
             </h1>
         </header>
         <!-- Navigation-->
@@ -29,10 +29,10 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Principal</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="sobre_mi.html">Sobre mi</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="estatus.html">Que estoy haciendo</a></li>
-                        <a class="flag-containermx" href="/en/status.html"><img class="mexico-icon" src="assets/img/bandera_mexico.png"></a>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/en/index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/en/about.html">About me</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/en/status.html">What I am up to</a></li>
+                        <a class="flag-containermx" href="/index.html"><img class="mexico-icon" src="/assets/img/bandera_usa.png"></a>
                     </ul>
                 </div>
             </div>
@@ -44,8 +44,17 @@
                         <div class="cta-inner bg-faded text-center rounded">
                             <h2 class="section-heading mb-4">
                                 <!--<span class="section-heading-upper">Rapidamente</span> -->
-                                <span class="section-heading-lower">Lo que estoy haciendo</span>
+                                <span class="section-heading-lower">A Summary</span>
                             </h2>
+                            <p class="mb-0">
+                                Currently I'm studying Computational Technologies Engineering at Tecnolgíco de Monterrey: Campus Puebla. 
+                                Since I was little I've been in love with videogames, and now I'm chasing my dream of becoming a professional game developer. 
+                                I made this webpage to showcase some of the projects I've been working through the years. Below I leave some important hyperlinks.
+                            </p>
+                            <div class="resumeButton">
+                            <a class="btn btn-primary btn-xl" href="/assets/CV_Iker_Guerrero_Gonzalez.pdf" download="CV_IkerGuerrero" style="left: 40%; position: relative;">Curriculum</a>
+                            <a href="https://www.linkedin.com/in/iguerrerog/" target="_blank"><img class="intro-logo" src="/assets/img/logoLinkedin.png"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,16 +64,17 @@
         <section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
-                    <img class="panel-img1" src="assets/img/unrealengine.png" alt="..." />
+                    <img class="panel-img1" src="/assets/img/isokoban.PNG" alt="..." />
                     <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                         <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Que Estoy</span>
-                            <span class="section-heading-lower">Aprendiendo</span>
+                            <span class="section-heading-upper">Academic Project</span>
+                            <span class="section-heading-lower">Isometric Sokoban</span>
                         </h2>
                         <p class="mb-3">
-                            Desde que empece a hacer juegos he usado Unity 3D, aunque he experimentado en algunas otras opciones como Godot o GameMaker. 
-                            Este año decidi expandir mis horizontes un poco mas y aprender Unreal Engine, en especifico UE5.
+                            Isometric "Sokoban" style game, made as the final assignment for Harvard's CS50x using Lua and the Love framework. I developed a rendering sytem that 
+                            transforms and renders strings into isometric levels displayed on the screen, plus the logic system for basic movement, block pushing, switches and piston functionality.
                         </p>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="/assets/Isometric_Sokoban.zip" download="Sokoban">Download</a></div>
                     </div>
                 </div>
             </div>
@@ -73,18 +83,17 @@
         <section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
-                    <img class="panel-img2" src="assets/img/yakuza.jpg" alt="..." />
+                    <img class="panel-img2" src="/assets/img/plcSimulator.jpeg" alt="..." />
                     <div class="intro-right-text right-0 text-center bg-faded p-5 rounded">
                         <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Que Estoy</span>
-                            <span class="section-heading-lower">Jugando</span>
+                            <span class="section-heading-upper">Professional project</span>
+                            <span class="section-heading-lower">PLC Simulator</span>
                         </h2>
                         <p class="mb-3">
-                            Hace unos años jugue Yakuza: 0 como mi primer juego de la seria y quede fascinado. Yakuza: Like a Dragon tiene todos los aspecto 
-                            que me gustan de la serie: histroias principales melodramaticas, historias secundarias ridiculas y minijuegos en los que me puedo perder por horas.
-                            El principal cambio de este juego respecto al resto de la serie es que paso de ser un juego estilo "Brawler" a un RPG por turnos.
-                            Este cambio no me molesto y he estado disfrutando mucho el juego.
+                            Didactic simulator developed for Android using Unity 3D, C#, Firebase and Plastic SCM. I worked as part of a team to deliver updates to the public 
+                            while meeting deadlines. This updates consisted of game optimizations and new functionalities for this didactic game.
                         </p>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="https://play.google.com/store/apps/details?id=com.StickyGames.PLCEmulatorProject" target="_blank">Google Play</a></div>
                     </div>
                 </div>
             </div>
@@ -93,16 +102,15 @@
         <section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
-                    <img class="panel-img3" src="assets/img/punchout.png" alt="..." />
+                    <img class="panel-img3" src="/assets/img/cubam.PNG" alt="..." />
                     <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                         <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Que Estoy</span>
-                            <span class="section-heading-lower">Practicando</span>
+                            <span class="section-heading-upper">Professional project</span>
+                            <span class="section-heading-lower">Cubam</span>
                         </h2>
                         <p class="mb-3">
-                            Hay 3 cosas en el ambito personal que estoy practicando: ajedrez, box y Guilty Gear: Strive. Llevo un rato mejorando en ajedrez y no planeo parar pronto, 
-                            mi meta actual es alcanzar 1500 Elo en la platafroma chess.com. Tanto box como Guilty Gear los empece este año, y ambos me han gustado bastante por lo que me gustaria seguir mejorando en ellos.
-                            Mi meta para Guilty Gear es alcanzar el rango "celestial", aunque me esta costando algo aprender ya que es mi primer juego de pelea tradicional. En cuanto a box, no tengo una meta clara mas que seguri mejorando mi rendimiento y divertirme.
+                            2D boss-rush game prototype created for a Fiverr client. I implemented movement, atacks and abilities for  bothe the PC and the enemies according to the client's 
+                            specifications. The game's main mechanic is the ability to rewind time mid-fight at command.
                         </p>
                     </div>
                 </div>

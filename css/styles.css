@@ -11546,4 +11546,18 @@ p {
   top: 50%;
 }
 
+.mexico-icon{
+  max-width: 100%;
+  max-height: 100%;
+  top: 15%;
+  position: relative;
+}
+
+.flag-containermx{
+  width:6rem;
+  max-height: 3rem;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
 
